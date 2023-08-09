@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    width: 77vw;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    font-size: 28px;
+    padding:0px 25px;
+}

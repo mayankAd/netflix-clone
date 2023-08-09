@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './Navigation.module.css'
-import { GrLanguage } from "react-icons/Gr";
+import { MdOutlineLanguage } from "react-icons/Md";
 import { MdOutlineArrowDropDown } from "react-icons/Md";
 
 const Navigation = () => {
@@ -11,11 +11,11 @@ const Navigation = () => {
       </div>
       <div className={`${styles.buttons}`}>
         <button className={`${styles.language_button}`}>
-          <GrLanguage />
+          <MdOutlineLanguage fontSize={'23px'}/>
           English
           <MdOutlineArrowDropDown />
         </button>
-        <button className={`${styles.signin_button}`}>Sign in</button>
+        <button className={`${styles.signin_button}`}>Sign In</button>
       </div>
     </div>
   );

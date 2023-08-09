@@ -21,9 +21,12 @@ input{
 }
 
 .get_started_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 200px;
     height: 65px;
-    background-color: rgb(255, 53, 53);
+    background-color: rgb(224, 33, 33);
     color: white;
     border: none;
     border-radius: 3px;
