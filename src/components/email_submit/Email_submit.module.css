@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+input{
+    width: 430px;
+    height: 65px;
+    border: 1px solid rgb(169, 169, 169);
+    border-radius: 5px;
+    padding-left: 20px;
+    background-color: black;
+    opacity: .7;
+}
+
+::placeholder{
+    color: white;
+    font-size: 18px;
+}
+
+.get_started_button{
+    width: 200px;
+    height: 65px;
+    background-color: rgb(255, 53, 53);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 25px;
+    font-weight: 600;
+}
