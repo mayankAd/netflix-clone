@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container a{
+    color: rgb(163, 163, 163);
+}

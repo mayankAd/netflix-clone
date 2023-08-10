@@ -2,6 +2,7 @@ import Hero from "./components/Hero/Hero";
 import Section_two from "./components/section2/Section_two";
 import Question_section from "./components/question_section/Question_section";
 import styles from "./App.css"
+import Footer from "./components/footer/Footer";
 const App = () => {
   return (
     <div className="main">
@@ -12,6 +13,7 @@ const App = () => {
     <Section_two heading="Watch everywhere" paragraph="Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV." imagePath={"images/device-pile-in.png"} isLeft={true}/>
     <Section_two heading="Create profiles for kids" paragraph="Send children on adventures with their favourite characters in a space made just for them—free with your membership." imagePath={"images/children.png"}/>
     <Question_section/>
+    <Footer/>
     </div>
   );
 };

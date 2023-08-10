@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 62vh;
+    background-color: black;
+    gap: 50px;
+    margin-top: 10px;
+    padding-left: 200px;
+}
+
+.num{
+    color: rgb(188, 188, 188);
+    font-size: 17px;
+}
+
+.num a{
+    color: rgb(184, 184, 184);
+}
+
+.table{
+    display: flex;
+    gap: 300px;
+}
+
+.last_sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 140px;
+    gap: 25px;
+}
+
+.last_sec p{
+    color: rgb(187, 187, 187);
+}

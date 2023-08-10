@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './Navigation.module.css'
-import { MdOutlineLanguage } from "react-icons/Md";
-import { MdOutlineArrowDropDown } from "react-icons/Md";
+
+import Language_button from "../language_button/Language_button";
 
 const Navigation = () => {
   return (
@@ -10,11 +10,7 @@ const Navigation = () => {
         <img src="/images/Netflix_Logo_PMS.png" alt="" />
       </div>
       <div className={`${styles.buttons}`}>
-        <button className={`${styles.language_button}`}>
-          <MdOutlineLanguage fontSize={'23px'}/>
-          English
-          <MdOutlineArrowDropDown />
-        </button>
+        <Language_button/>
         <button className={`${styles.signin_button}`}>Sign In</button>
       </div>
     </div>
